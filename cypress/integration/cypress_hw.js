@@ -8,6 +8,5 @@ it ('Signin flow', () =>{
   cy.get('.btn').click()
 
   cy.get('.navbar').contains('testest11').should('exist')
-  cy.get();
 
 })
